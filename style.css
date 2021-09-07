@@ -1,0 +1,36 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font: 1.5em Verdana, Sans-Serif;
+background: #eee;
+}
+
+#container{
+    margin: 20px auto;
+    width: 975px;
+    height: 660px;
+}
+
+#writeL, #writeR, #writeM{
+    float: left;
+    margin: 0 1px 160px;
+    padding: 5px;
+    width: 310px;
+    height: 200px;
+    font: 1em/1.5 Verdana, Sans-Serif;
+    background: #fff;
+    border: 1px solid #f9f9f9;
+    -webkit-border-radius: 5px;
+}
+
+#Keyboard{
+    float:  right;
+    touch-action: manipulation;
+}
+
+#W{
+    cursor: pointer;
+}
